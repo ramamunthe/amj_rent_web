@@ -1,0 +1,119 @@
+.header-top {
+  background: #252525;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.btn-warning, .btn-warning:hover, .btn-warning:focus {
+  color: #000;
+  background-color: #F2D665;
+  border-color: #F2D665;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: #252525!important;
+  margin-top: -1px;
+}
+
+.nav-link, .nav-link:hover, .nav-link:focus {
+  color: #ffffff;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #f2d665;
+  background-color: transparent;
+  border-bottom: 4px solid;
+  border-color: #f2d665;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.bg-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  object-fit: cover;
+  opacity: .4;
+}
+
+.bg-form {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.img-slide {
+  height: 150px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 3%;
+}
+
+.carousel-item {
+  width: 95%;
+}
+
+.img-mobile {
+  height: 250px;
+}
+
+.img-sosmed {
+  height: 24px;
+}
+
+.link-sosmed {
+  margin-right: 11px;
+}
+
+.img-logo {
+  height: 300px;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+.img-car {
+  height: 200px;
+}
+
+.card {
+  border: 1px solid rgba(174,174,174,0.125);
+}
+
+.form-select:focus {
+  border-color: #f2d665;
+  outline: 0;
+  box-shadow: 0 0 0 .10rem rgba(242,214,101,0.39);
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #f2d665;
+  outline: 0;
+  box-shadow: 0 0 0 .10rem rgba(242,214,101,0.39);
+}
+
+.img-table {
+  height: 50px;
+}
+
